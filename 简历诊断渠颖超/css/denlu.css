@@ -1,0 +1,53 @@
+*{
+     margin: 0px;
+     padding: 0px;
+ }
+body{
+    background: #F5F5F7;
+    font-size: 14px;
+    font-weight: 1000;
+}
+nav{
+    width: 100%;
+    height: 100%;
+}
+.all{
+    height: 643.14px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: #ffffff;
+}
+.content{
+    padding-top: 40px;
+}
+.header{
+    text-align: center;
+}
+.header img{
+    height: 54.14px;
+    width: 37%;
+}
+.layui-tab-title{
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: unset;
+}
+.layui-tab-title li{
+    padding: 0 46px;
+}
+.layui-tab-brief>.layui-tab-title .layui-this {
+    color: #ff4f4c;
+}
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid  #ff4f4c;
+    width: 50px;
+}
+.layui-this{
+    padding-left: 20%;
+}
+.layui-tab-title .layui-this:after{
+    left: 34%;
+}
